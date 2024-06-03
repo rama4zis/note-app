@@ -1,8 +1,5 @@
-# upgrade pip
-pip install --upgrade pip
-
 # install all the required packages
-pip install -r requirements.txt 
+pip3 install -r requirements.txt 
 
 # make migrations
 python3.9 manage.py migrate 
