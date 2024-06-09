@@ -1,5 +1,7 @@
 # Installation guide
 
+This need supabase and cloudinary
+
 Make venv
 ```
 python3 -m venv .venv
@@ -17,18 +19,14 @@ install requirements
 pip install -r requirements.txt
 ```
 
-Go inside ``mynote`` folder
-
 Migrate database 
 ```
-python3 manage.py migrate
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
 # Running server
 
-Go inside ``mynote`` folder
 ```
 python3 manage.py runserver
 ```
